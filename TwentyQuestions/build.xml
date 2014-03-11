@@ -1,0 +1,27 @@
+<project name = "Assignment4" basedir = "." default = "run">
+
+	<target name = "clean">
+		<delete >
+			<fileset dir = "." includes = "**/*.class"/>
+			<fileset dir = "." includes = "*.*~"/>
+		</delete>
+		<delete dir = "META-INF"/>
+	</target>
+
+	<target name = "compile" depends = "clean">
+		<javac srcdir = "." includeantruntime = "false"/>
+	</target>
+	
+	<target name = "run" depends = "compile">
+        <java classname = "code.Driver" classpath = "." fork = "no" />
+    </target>
+	
+	<target name = "jar">	
+		<jar destfile = "./a4P2SmithW.jar" basedir = "." includes = "**/*.java, build.xml, questions.txt, assignment4WS.script"  excludes = "**/*.class, *.*~"/>
+	</target>
+	
+	<target name = "who">
+		<echo message = "Program created by: Warren Smith"/>
+	</target>
+	
+</project>
