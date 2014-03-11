@@ -1,0 +1,23 @@
+<project name = "lab8" basedir = "." default = "run">
+
+	<target name = "clean">
+		<delete >
+			<fileset dir = "." includes = "**/*.class"/>
+			<fileset dir = "." includes = "*.*~"/>
+		</delete>
+		<delete dir = "META-INF"/>
+	</target>
+
+	<target name = "compile" depends = "clean">
+		<javac srcdir = "." includeantruntime = "false"/>
+	</target>
+	
+	<target name = "run" depends = "authors,compile">
+        <java classname = "tcnj.smith332.Driver" classpath = "." fork = "no" />
+    </target>
+	
+	<target name = "authors">
+		<echo message = "Warren Smith, David Piccolella, Kamal Jain"/>
+	</target>
+	
+</project>
