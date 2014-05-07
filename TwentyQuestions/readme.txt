@@ -1,6 +1,6 @@
 To run:
 
-If Apache Ant in installed (preferred):
+If Apache Ant is installed (preferred):
 - open terminal in directory current project is on
 - Type "ant run" in terminal
 - "ant clean", "ant compile", "ant who", & "ant jar" are other options
