@@ -1,3 +1,5 @@
+Java Twenty Questions Program
+
 To run:
 
 If Apache Ant is installed (preferred):

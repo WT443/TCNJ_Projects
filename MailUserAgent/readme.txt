@@ -1,3 +1,5 @@
+Java MUA Program
+
 To run:
 - open terminal in directory current project is on
 - Type "javac *.java"

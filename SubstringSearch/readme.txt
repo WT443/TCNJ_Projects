@@ -1,3 +1,5 @@
+Java Substring Search Program
+
 How to run:
 - open terminal in directory current project is on
 - make sure text file be analyzed is in same directory

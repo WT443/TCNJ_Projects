@@ -1,3 +1,5 @@
+Haskell Dustsweeper Game Program
+
 How to run:
 - open compiler to directory source code is in
 - type "ghc main.hs"

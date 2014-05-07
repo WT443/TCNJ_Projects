@@ -1,3 +1,5 @@
+Java Movie Finder Program
+
 To run:
 
 If Apache Ant is installed (preferred):

@@ -1,3 +1,5 @@
+Ruby Eagles Roster Web Scraper
+
 How to run:
 1. Open the terminal to the right directory
 2. Type in the command line “gem install nokogiri”
