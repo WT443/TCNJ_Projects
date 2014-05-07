@@ -1,10 +1,4 @@
-Warren Smith
-12/4/14
-CSC435-01
-Assignment #1: Step 4 (Instructions)
-
-
-Instructions
+How to run:
 1. Open the terminal to the right directory
 2. Type in the command line “gem install nokogiri”
 3. Type in the command line “gem install scraperwiki”
